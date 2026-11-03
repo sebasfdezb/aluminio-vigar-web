@@ -1,0 +1,20 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    { "source": "/img/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] }
+  ],
+  "redirects": [
+    { "source": "/productos-carpinteria-aluminio-madrid", "destination": "/productos", "permanent": true },
+    { "source": "/servicios-carpinteria-aluminio-madrid", "destination": "/productos", "permanent": true },
+    { "source": "/ventanas-de-aluminio-madrid", "destination": "/productos", "permanent": true },
+    { "source": "/ventanas-pvc-madrid", "destination": "/productos", "permanent": true },
+    { "source": "/ventanas-cortizo-madrid", "destination": "/productos", "permanent": true },
+    { "source": "/carpinteria-metalica-madrid", "destination": "/productos", "permanent": true },
+    { "source": "/trabajos-carpinteria-aluminio-madrid", "destination": "/trabajos", "permanent": true },
+    { "source": "/web-carpinteria-de-aluminio-madrid", "destination": "/empresa", "permanent": true },
+    { "source": "/contacto-carpinteria-aluminio-madrid", "destination": "/contacto", "permanent": true },
+    { "source": "/politica-de-privacidad", "destination": "/privacidad", "permanent": true },
+    { "source": "/aviso-legal/", "destination": "/aviso-legal", "permanent": true }
+  ]
+}
